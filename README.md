@@ -36,12 +36,12 @@ The data is not included in the GitHub repository. You have to download it from 
 ### evaluation.py
 **Test the models (one or an ensemble of models) using a database**\
 see  ./xevaluation bash script in example directory.
-Please note that the models are not included in the GitHub repository. You have to download theme from Zenodo: [doi.org/10.5281/zenodo.13681778](https://doi.org/10.5281/zenodo.13681778)
+Please note that the models are not included in the GitHub repository. You have to download them from Zenodo: [doi.org/10.5281/zenodo.13681778](https://doi.org/10.5281/zenodo.13681778)
 
 ### predict.py
 **Predict the IR spectrum using a xyz file**\
 see ./xpredict\* bash scripts.
-Please note that the models are not included in the GitHub repository. You have to download theme from Zenodo: [doi.org/10.5281/zenodo.13681778](https://doi.org/10.5281/zenodo.13681778)
+Please note that the models are not included in the GitHub repository. You have to download them from Zenodo: [doi.org/10.5281/zenodo.13681778](https://doi.org/10.5281/zenodo.13681778)
 
 ## Citations
 
