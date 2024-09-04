@@ -1,0 +1,8 @@
+# ignore ALL .log files
+*.log
+# ignore ALL files in ANY directory named temp
+Data/
+Models/
+*.exe
+# p
+p
