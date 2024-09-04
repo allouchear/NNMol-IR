@@ -14,7 +14,7 @@ After installation of conda, and activation of your environnement,  Type :
 pip install tensorflow==2.12.0
 pip install tensorflow_probability==0.19.0
 pip install tensorflow_addons==0.20.0
-pip3 install nvidia-tensorrt
+pip3 install nvidia-tensorrt (if you want to use GPU)
 ```
 
 ## Installation
