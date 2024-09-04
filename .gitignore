@@ -3,6 +3,6 @@
 # ignore ALL files in ANY directory named temp
 Data/
 Models/
-*.exe
+*.out
 # p
 p

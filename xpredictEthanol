@@ -1,0 +1,12 @@
+#!/bin/bash 
+
+source $HOME/shell/tensorFlowEnv
+
+fn=Ethanol
+Models=Models
+python predict.py --input_file_name=${fn}.xyz --charge=0 --multiplicity=1 \
+--list_models=$Models/train_3584_900_412_r1,$Models/train_3584_900_412_r3,$Models/train_3584_900_412_r4,$Models/train_4096_400_400_r1,$Models/train_4096_400_400_r2,$Models/train_4096_400_400_r3,$Models/train_4096_400_400_r4,$Models/train_4496_200_200_r1,$Models/train_4496_200_200_r2,$Models/train_4496_200_200_r3,$Models/train_4496_200_200_r4,$Models/train_4496_200_200_r5 \
+--average=1 
+cp ir.csv ir${fn}.csv
+
+echo "see ir${fn}.csv"

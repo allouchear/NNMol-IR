@@ -1,0 +1,5 @@
+#!/bin/bash 
+
+source $HOME/shell/tensorFlowEnv
+
+python train.py train.inp

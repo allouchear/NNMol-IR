@@ -1,0 +1,12 @@
+#!/bin/bash 
+
+source $HOME/shell/tensorFlowEnv
+
+fn=Np
+Models=Models
+python predict.py --input_file_name=${fn}.xyz --charge=0 --multiplicity=1 \
+--list_models=$Models/train_4895_1_0 \
+--average=1 
+cp ir.csv ir${fn}_Model4895.csv
+
+echo "see ir${fn}.csv"

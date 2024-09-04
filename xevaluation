@@ -1,0 +1,19 @@
+#!/bin/bash 
+
+source $HOME/shell/tensorFlowEnv
+
+
+fn=Data/B3LYP_NIST_EVAL.h5
+md="average_metrics_evaluation_train"
+casfile="cas.csv"
+
+Models=Models
+time python evaluation.py \
+--metrics_dir=$md \
+--data_file=${fn} \
+--average=1 \
+--dataFrameNameFrequencies=IR_NIST_Freqs_Conv \
+--dataFrameNameIntensities=IR_NIST_Ints_Conv \
+--list_models=$Models/train_3584_900_412_r1,$Models/train_3584_900_412_r3,$Models/train_3584_900_412_r4,$Models/train_4096_400_400_r1,$Models/train_4096_400_400_r2,$Models/train_4096_400_400_r3,$Models/train_4096_400_400_r4,$Models/train_4496_200_200_r1,$Models/train_4496_200_200_r2,$Models/train_4496_200_200_r3,$Models/train_4496_200_200_r4,$Models/train_4496_200_200_r5 \
+--cas_file=$casfile 
+echo "See $md directory"

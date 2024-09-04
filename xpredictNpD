@@ -1,0 +1,11 @@
+#!/bin/bash 
+
+source $SPS_DIR/Softwares/shell/tensorFlowEnv
+
+fn=NpD
+python predictDeuterium.py --input_file_name=${fn}.xyz --charge=0 --multiplicity=1 \
+--list_models=train_3584_900_412_r1,train_3584_900_412_r3,train_3584_900_412_r4,train_4096_400_400_r1_suite,train_4096_400_400_r2_suite,train_4096_400_400_r3_suite,train_4096_400_400_r4_suite,train_4496_200_200_r1,train_4496_200_200_r2,train_4496_200_200_r3,train_4496_200_200_r4,train_4496_200_200_r5 \
+--average=1 
+cp ir.csv ir${fn}.csv
+
+echo "see ir${fn}.csv"

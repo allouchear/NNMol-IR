@@ -1,0 +1,11 @@
+awk '{
+if(NF>9) symbol=$2
+if(NF==3){
+	printf("\t\tself._add_isotope(\"%s\",",symbol)
+	for(i=1;i<=3;i++) 
+		if(i<3) printf("%s, ",$i); 
+		else printf("%s ",$i); 
+	printf(")")
+	printf("\n")
+}
+}' atomsprop
