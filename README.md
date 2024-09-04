@@ -1,4 +1,4 @@
-NNMol-IR : A program for computing Infrared spectrum form 3D molecular structure.
+NNMol-IR : A Machine learning program for computing Infrared spectrum form 3D molecular structure.
 =========================================================================================
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
