@@ -31,15 +31,23 @@ You can also download the .zip file of NNMP-IR : Click on Code and Download ZIP
 **Using the database in Data (h5 format) directory, make the training**\
 see train.inp and ./xtrain bash script.
 Please note that in this example, the IR data used are from a scaled DFT, not from experiment. In the published paper, we used the experimental data. However, we cannot share these values because they are from a commercial database. You can purchase them from NIST. See our published paper for more details.
+The data is not included in the GitHub repository. You have to download it from Zenodo: [doi.org/10.5281/zenodo.13681778](https://doi.org/10.5281/zenodo.13681778)
 
 ### evaluation.py
 **Test the models (one or an ensemble of models) using a database**\
 see  ./xevaluation bash script in example directory.
+Please note that the models are not included in the GitHub repository. You have to download theme from Zenodo: [doi.org/10.5281/zenodo.13681778](https://doi.org/10.5281/zenodo.13681778)
 
 ### predict.py
 **Predict the IR spectrum using a xyz file**\
 see ./xpredict\* bash scripts.
+Please note that the models are not included in the GitHub repository. You have to download theme from Zenodo: [doi.org/10.5281/zenodo.13681778](https://doi.org/10.5281/zenodo.13681778)
 
+## Citations
+
+If you used NNMol-IR code, please cite :
+
+    Neural Network Approach for Predicting Infrared Spectra from 3D Molecular Structure, Chemical Physics Letters xxx, xxx (2024). [https://doi.org/xxx/xxxx](https://doi.org/xxx/xxxx)
 
 ## Contributors
 The code is written by Abdul-Rahman Allouche.
