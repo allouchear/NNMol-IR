@@ -45,9 +45,19 @@ Please note that the models are not included in the GitHub repository. You have 
 
 ## Citations
 
-Please cite :
+Please cite : Neural Network Approach for Predicting Infrared Spectra from 3D Molecular Structure, Chemical Physics Letters xxx, xxx (2024). [https://doi.org/10.1016/j.cplett.2024.141603](https://doi.org/10.1016/j.cplett.2024.141603)
 
-    Neural Network Approach for Predicting Infrared Spectra from 3D Molecular Structure, Chemical Physics Letters xxx, xxx (2024). [https://doi.org/10.1016/j.cplett.2024.141603](https://doi.org/10.1016/j.cplett.2024.141603)
+title = {Neural network approach for predicting infrared spectra from 3D molecular structure},
+journal = {Chemical Physics Letters},
+pages = {141603},
+year = {2024},
+issn = {0009-2614},
+doi = {https://doi.org/10.1016/j.cplett.2024.141603},
+url = {https://www.sciencedirect.com/science/article/pii/S0009261424005451},
+author = {Saleh {Abdul Al} and Abdul-Rahman Allouche},
+keywords = {Infrared Spectra, Machine Learning, Neural Network, DFT scaled frequencies},
+abstract = {We developed a machine learning (ML) model to directly predict IR spectra from three-dimensional (3D) molecular structures. The spectra predicted by our model significantly outperform those from density functional theory (DFT) calculations, even after scaling. In a test set of 200 molecules, our model achieves a Spectral Information Similarity Metric (SIS) of 0.92 surpassing the value achieved by DFT scaled frequencies which is 0.57. Additionally, our model considers anharmonic effects offering a fast alternative to laborious anharmonic calculations. Moreover, our model can be used to predict various types of spectra (as UV or NMR) as a function of molecular structure.}
+}
 
 ## Contributors
 The code is written by Abdul-Rahman Allouche.
