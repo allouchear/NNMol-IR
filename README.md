@@ -44,7 +44,7 @@ Please note that the models are not included in the GitHub repository. You have 
 
 ## Citations
 
-Please cite : Neural Network Approach for Predicting Infrared Spectra from 3D Molecular Structure, Chemical Physics Letters xxx, xxx (2024). [https://doi.org/10.1016/j.cplett.2024.141603](https://doi.org/10.1016/j.cplett.2024.141603)
+Please cite : Neural Network Approach for Predicting Infrared Spectra from 3D Molecular Structure, Chemical Physics Letters 856 (2024) 141603. [https://doi.org/10.1016/j.cplett.2024.141603](https://doi.org/10.1016/j.cplett.2024.141603)
 
 ```console
 title = {Neural network approach for predicting infrared spectra from 3D molecular structure},
