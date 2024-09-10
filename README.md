@@ -49,6 +49,7 @@ Please cite : Neural Network Approach for Predicting Infrared Spectra from 3D Mo
 ```console
 title = {Neural network approach for predicting infrared spectra from 3D molecular structure},
 journal = {Chemical Physics Letters},
+volume = {856},
 pages = {141603},
 year = {2024},
 issn = {0009-2614},
