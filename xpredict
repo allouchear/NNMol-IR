@@ -1,0 +1,23 @@
+#!/bin/bash 
+
+source $HOME/shell/tensorFlowEnv
+SCRIPT=$(readlink -f $0)
+export  NNMOLDIR=`dirname $SCRIPT`
+export PYTHONPATH=$PYTHONPATH:$NNMOLDIR
+
+fn=$1 ; [ 0 = $# ] || shift
+charge=$1 ; [ 0 = $# ] || shift
+ms=$1 ; [ 0 = $# ] || shift
+
+[[ -z "$charge" ]] &&  charge=0
+[[ -z "$ms" ]] &&  ms=1
+
+fn=${fn%.xyz}
+
+Models=$NNMOLDIR/Models
+python $NNMOLDIR/predict.py --input_file_name=${fn}.xyz --charge=$charge --multiplicity=$ms \
+--list_models=$Models/train_4895_1_0 \
+--average=1 
+mv ir.csv ${fn}.csv
+
+echo "see ${fn}.csv"
